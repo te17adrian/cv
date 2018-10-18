@@ -1,0 +1,37 @@
+
+    header {
+    width: 100%;
+    background-color: blanchedalmond;
+    text-align: center;
+    }
+
+    h1 {
+        font-size: 250%;
+        text-align: center;
+    }
+
+
+    main {
+        background-color: aquamarine;
+        text-align: center;
+        width: auto;
+        margin-left: 20%;
+        border-left: 10px;
+    }    
+    
+    aside {
+        background-color: aqua;
+        text-align: center;
+        width: 20%;
+        float: left;
+        
+        
+    }
+    
+    accordion {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    transition: 0.4s;
+}

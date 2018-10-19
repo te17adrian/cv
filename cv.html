@@ -1,32 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"> 
-<title>My CV</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="css/style.css" rel="stylesheet">
+    <meta charset="UTF-8"> 
+    <title>My CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
 
-    </head>
+</head>
     <header>
-        <h1>Test</h1>
-
-    </header>
+        <h2>My CV</h2>
+        <h3>
+        Name
+        </h3>
+        <p>s</p> 
+        <p>s</p> 
+        <p>s</p> 
+        
+       
+        
+        
+            <button class="accordion">View CV</button>
+                <div class="panel">
     <body>
         <aside>
-        <h1>Test</h1>
-        <blockquote>
-            
+            <h1>Test</h1>
+            <blockquote>
+                Test
             </blockquote>
         </aside>
         <main>
-        <h1>Test</h1>    
-        <blockquote>
-        test    
+            <h1>Test</h1>    
+                <blockquote>
+                test    
         
             
-        </blockquote>
-        <h1>Test</h1>
+                </blockquote>
+            <h1>Test</h1>
         
             
         </main>
     </body>
+                    
+                </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+                });
+            }
+        </script>     
+    </header>
+ 

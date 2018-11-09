@@ -17,7 +17,17 @@ header>h3{
     
 }
 
+header>h4{
+    text-align: right;
+    padding-left: 10px;
+    position: relative;
+    
+    
+}
+
 header {
+    border-style: solid;
+    border right: 20px;
     margin: 0 auto;
     width: 80%;
     background-color: rgba(255, 255, 255, 0.6);
@@ -35,14 +45,19 @@ header {
 }
 
     main {
+        border-style: solid;
+        border right: 20px;
         background-color: rgba(255, 255, 255, 0);
         text-align: center;
         width: auto;
         margin-left: 20%;
-        border-left: 10px;
+        border-left-color: rgba(255, 255, 255, 0);
+        border-left-width: 15px;
     }    
     
     aside {
+        border-style: solid;
+        border right: 20px;
         background-color: rgba(255, 255, 255, 0);
         padding-right: 1px;
         padding-top: 21px;
@@ -50,7 +65,7 @@ header {
         width: 20%;
         float: left;
         }
-aside>blockquote{
+aside>li{
     text-align: left;
     padding-left: 10px;
     
